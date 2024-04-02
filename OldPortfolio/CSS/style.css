@@ -1,0 +1,163 @@
+/*
+GENERAL CONTENT
+*/
+.main{padding-top: 3%;}
+.row{padding :2% 0;}
+.grey
+{
+    background-color: #6287B5
+}
+
+/*
+TYPOGRAPHY
+*/
+body{
+    font-family: 'Abel',sans-serif;
+    font-size: 1.5em;
+    color:#000;
+}
+/*
+h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 3 em;
+    margin:0.67 em
+}
+*/
+.bio{
+    text-decoration: none;
+}
+h2.bio{color:#fff;}
+p.bio{color:#fff;}
+
+/*
+HEADER NAV
+*/
+head    er.main_nav{
+    padding:1% 0;
+    display: block
+}
+
+.navBar{
+    display: table;
+    margin: 0 auto;
+    width: 70%;
+}
+
+ul.nav{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.nav a{
+    font-family: 'Archivo Black',sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 0.5em;
+    color:#FFF;
+    text-decoration: none;
+    border: 3px solifd #fff;
+    text-transform: uppercase;
+    padding:2px 3px 0px 10px;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.nav li{
+        display: inline;
+}
+
+
+.nav a:hover{
+    background-color:#fff;
+    color: #7accc8;
+}
+
+.logo{
+    font-family: 'Archivo Black',sans-serif;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.logo a{
+    font-size: 3em;
+    color:#FFF;
+    text-decoration: none;
+    border: 3px solifd #fff;
+    text-transform: uppercase;
+    padding:2px 10px 0px 10px;
+    margin: 0;
+    transition: 0.5s;
+    
+}
+
+.logo a:hover{
+    background-color:#fff;
+    color: #7accc8;
+}
+
+.containerMain{
+    margin: 0 auto;
+    width: 65%;
+}
+.container{
+    margin: 0 auto;
+    
+}
+/*
+IMAGES AND MEDIA
+*/
+
+img{
+    max-width:100%;
+    transition: 0.25s;
+}
+img.avatar{
+    border-radius: 400px;
+    
+}
+img:hover{opacity:0.65 ;
+}
+
+#inSiteVideo{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+/*
+footer
+*/
+
+ul.social{
+    display: block;
+    margin: 0 0;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+li{
+    font-size: 3em;
+    display: inline;
+    padding: 1%;
+
+}
+ul.social li a{
+    color: #666;
+    transition: 0.45s;
+
+}
+ul.social li a:hover{
+    color: rgb(0,123,182);
+/*    transition: 0.6s;*/
+
+}
+
+p.copyright{
+    text-align: center;
+    color: #666;
+    font-size: 1 em;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>CJ Axisa</title>
+  <meta name="description" content="Portfolio for CJ Axisa, game developer">
+  <meta name="author" content="CJ Axisa">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Abel|Satisfy" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/skeleton.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/magnific-popup.css">
+
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/172a3d6ad8.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<header class="main_nav grey">
+    <div class="container">
+        <div class ="twelve columns">
+            <div class="logo"><a href="index.html">CJ AXISA</a></div>
+        </div>
+   
+        <div class="row twelve columns">
+        <div class="navBar">
+            <ul class="nav">
+                <li class="nav"><a  href="index.html">Portfolio</a></li>
+                <li class="nav"><a  href="about.html">About</a></li>
+                <li class="nav"><a  href="resume.html">Resume</a></li>
+                
+                
+            </ul>
+        </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="containerMain">
+    <div class="row">
+        <div class="twelve columns portfolio">
+            <h2>3D Work</h2>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="eight columns portfolio">
+                <a class="image-link" href="images/korHouse2.png"><img src="images/korHouse2.png"/></a>
+        </div>
+        <div class="four columns portfolio">
+            <h3>Thing A</h3>
+            <p>write about worm here.</p>
+            <h3>Development</h3>
+            <p>write about making worm here. </p>
+            <h3>Role</h3>
+            <p>What i did for worm here.</p>
+        </div>      
+   </div>
+    <div class="row">
+        <div class="twelve columns portfolio">
+            <h2>Particle Systems</h2>
+        </div>
+    </div>
+
+</div>
+
+
+
+<footer>
+    <div class="container">
+        <div class="row twelve columns">
+            <ul class="social">
+                <li class="linkedin"><a href="https://www.linkedin.com/in/christian-axisa-80b275127/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="mailto:cjaxisa@gmail.com"><i class="fas fa-envelope-square"></i></a></li>
+                <li><a href="https://github.com/CJAxisa"><i class="fab fa-github-square"></i></a></li>
+                <li><a href="https://cjaxisa.itch.io/"><i class="fab fa-itch-io"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCp3d_3qn4Wbap0BPKBAXrAw"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="row twelve columns">
+            <p class="copyright">&copy; 2019 Christian Axisa. Tools used: Skeleton used for site structure, Font Awesome, Google fonts, Magnific Popup.</p>
+        </div>
+    </div>
+</footer>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="scripts/jquery.magnific-popup.js"></script>
+  <script type="text/javascript">
+  $('.image-link').magnificPopup({
+    type: 'image',
+    mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+    zoom: {
+      enabled: true, // By default it's false, so don't forget to enable it
+
+      duration: 300, // duration of the effect, in milliseconds
+      easing: 'ease-in-out', // CSS transition easing function
+
+      // The "opener" function should return the element from which popup will be zoomed in
+      // and to which popup will be scaled down
+      // By defailt it looks for an image tag:
+      opener: function(openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+      }
+    }
+
+  });
+    </script>
+</body>
+</html>
